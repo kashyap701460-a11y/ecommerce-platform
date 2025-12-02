@@ -47,7 +47,8 @@ height:100%;
 
 
 .menu ul li{
-list-style-type:none;
+list-style:none;
+  text-decoration:none;
   
   color:black;
   
