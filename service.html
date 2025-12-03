@@ -1,1 +1,21 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      New tab
+    </title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="callMenu"></div>
+    <script>
+      fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("callMenu").innerHTML = data;
+        });
+    </script>
+    <h1>Hello i am service.html</h1>
+  </body>
+</html>
 
