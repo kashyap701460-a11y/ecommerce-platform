@@ -10,9 +10,9 @@
     <div id="callMenu"></div>
     <script>
       fetch("header.html")
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById("callMenu").innerHTML = data;
+        .then(data => data.text())
+        .then(response => {
+          document.getElementById("callMenu").innerHTML = response;
         });
     </script>
     <h1>Hello i am service.html</h1>
