@@ -63,7 +63,7 @@
 .menu .menubar ul li .submenu{
   display:none;
   width:120px;
-  border:2px solid black;
+  border:1px solid black;
   position:absolute;
   z-index:10;
   background-color:pink;
