@@ -60,9 +60,32 @@
   font-size: 1.5vw;
 }
 
-.menu .menubar ul li{
-height:10%;
+.menu .menubar ul li .submenu{
+  display:none;
   width:20%;
+  border:2px solid black;
+  position:absolute;
+  z-index:1;
+  background-color:black;
+  
+}
+
+.menu .menubar ul li .submenu li{
+list-style:none;
+  padding:5px 10px;
+
+}
+.menu .menubar ul li .submenu li a {
+color:black;
+  font-sixe:1vw;
+  text-decoration:none;
+  position:realtive;  
+}
+
+
+.menu .menubar ul li:hover .submenu{
+
+display:block;
 
   
 }
