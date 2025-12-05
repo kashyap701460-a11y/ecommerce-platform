@@ -86,7 +86,7 @@ color:black;
   position:relative;  
   white-space:nowrap;
   overflow:hidden;
-  text-overflow:ellpsis;
+  text-overflow:ellipsis;
   
 }
 
