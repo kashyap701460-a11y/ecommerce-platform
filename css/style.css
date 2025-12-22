@@ -35,7 +35,7 @@
 }
 
 .menu .menubar {
-  width: 100%;
+  width: 90%;
   height: 100%;
   
 }
@@ -102,6 +102,30 @@ color:black;
 .menu .menubar ul li:hover .submenu{
 
 display:block;
+
+  
+}
+.menu .hamberger {
+width:100%;
+  height:100%;
+  background-color:pink;
+  display:flex;
+  align-items:center;
+  cursor:pointer;
+  
+
+  
+}
+.menu .hamberger span{
+width:20%;
+  height:2px;
+  background-color:black;
+  display:block;
+  border-radius:2px;
+  box-shadow:0 7px 0 white , 0 -7px 0 white;
+  
+  
+  
 
   
 }
