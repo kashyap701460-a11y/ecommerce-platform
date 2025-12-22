@@ -50,8 +50,10 @@
 
 .menu .menubar ul li {
   list-style: none;
-  padding-bottom: 2.5%;
   height:100%;
+  align-item:center;
+  position:relative;
+  display:flex;
 }
 
 .menu .menubar ul li a {
