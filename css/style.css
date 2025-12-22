@@ -51,7 +51,7 @@
 .menu .menubar ul li {
   list-style: none;
   height:100%;
-  align-item:center;
+  align-items:center;
   position:relative;
   display:flex;
 }
