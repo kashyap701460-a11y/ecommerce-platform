@@ -61,6 +61,7 @@
   color: green;
   position: absolute;
   font-size: 1.5vw;
+  display:flex;
 }
 
 .menu .menubar ul li .submenu{
